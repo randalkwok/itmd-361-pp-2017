@@ -52,25 +52,23 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 @media screen and (min-width: 600px) {
   #content {
-    flex-flow: row-reverse wrap-reverse;
-  }
-  #three {
-    width: 100vw;
-    height: 100vw;
-  }
-
-  #two, #one {
-    width: 50vw;
+  flex-flow: row-reverse wrap-reverse;
+}
+  
+  #one, #two {
+    flex: 0 1 50%;
     height: 50vw;
   }
-
+  #three {
+    flex: 0 1 100%;
+  }
 }
 
 @media screen and (min-width: 800px) {
   #three,
   #two,
   #one {
-    width: 33.33vw;
+    flex: 1 1 auto;
     height: 33.33vw;
   }
 }

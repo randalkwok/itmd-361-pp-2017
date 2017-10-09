@@ -38,27 +38,16 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   height: 100vw;
 }
 
-#three {
-
-}
-
-#two {
-
-}
-
-#one {
-
-}
-
 @media screen and (min-width: 600px) {
   #content {
     flex-flow: row-reverse wrap-reverse;
   }
-  
+
   #one, #two {
     flex: 0 1 50%;
     height: 50vw;
   }
+
   #three {
     flex: 0 1 100%;
   }

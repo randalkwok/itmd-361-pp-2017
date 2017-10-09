@@ -52,8 +52,8 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 @media screen and (min-width: 600px) {
   #content {
-  flex-flow: row-reverse wrap-reverse;
-}
+    flex-flow: row-reverse wrap-reverse;
+  }
   
   #one, #two {
     flex: 0 1 50%;

@@ -52,5 +52,11 @@ function addTwo(x) {
   return x;
 }
 
+//  Explanation:
+//  It does not modify the global x because x in this case
+//  is the parameter. This parameter x's scope is limited
+//  to the addTwo function. This "new" x is modified and
+// not the global x.
+
 console.log(addTwo(4)); // 6
 console.log(x); // should be 5 if you corrected the double() function above

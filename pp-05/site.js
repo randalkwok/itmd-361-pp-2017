@@ -14,4 +14,5 @@ $.noConflict();
   $('button').on('click', function() {
     ringDoorbell();
   });
+  
 })(jQuery);
